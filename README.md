@@ -8,7 +8,7 @@ To use any of the versions of PCAPa, place PCAP file(s) in the same folder as th
 (i.e. "./PCAPa-0.9"). TShark is required to run this, so a PATH variable is prefered.
 
 As time goes on, I will be researching more efficient ways to run this script. Currently (v0.9), the tshark filters are ran twice,
-once to generate a count of each type of packet in an investigaion summary text file, and second to generate those packets into
+once to generate a count of each type of packet in an investigaion summary text file, and second to export those packets into
 individual PCAP files groupd by category:
 
 - DNS Packets
