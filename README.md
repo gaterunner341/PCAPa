@@ -18,3 +18,12 @@ individual PCAP files groupd by category:
 - NMAP Activity Packets
 - "Bad" Country Packets
 - Suspected ARP Poisoning Packets (duplicate Ip per MAC)
+
+NOTE: Be caucious of the naming of original PCAP files. This script will delete files with the following naming conventions as part of cleanup actions:
+- dns-*
+- strangeports-*
+- RDP-*
+- TLSVer-*
+- nmap-*
+- country-*
+- arp-*
